@@ -54,8 +54,8 @@ body {
   font-weight: 700;
   color: var(--text-primary) !important;
   letter-spacing: -0.01em;
-  margin-right: auto;
-  padding: 6px 0 !important;
+  margin: 0 auto 0 0;
+  padding: 0 !important;
   background-color: transparent !important;
 }
 
