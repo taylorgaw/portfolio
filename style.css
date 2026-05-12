@@ -381,6 +381,91 @@ li {
   margin: 0;
 }
 
+/* ── Blog list ── */
+
+.blog-header {
+  margin-bottom: 40px;
+}
+
+.blog-header h1 {
+  margin-bottom: 8px;
+}
+
+.blog-card-meta {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 6px;
+}
+
+/* ── Blog post ── */
+
+.post-back {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 32px;
+}
+
+.post-back:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.post-header {
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 40px;
+}
+
+.post-header h1 {
+  margin-bottom: 12px;
+}
+
+.post-meta {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.post-content p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.post-content h2 {
+  margin-top: 36px;
+  margin-bottom: 16px;
+}
+
+.post-content h3 {
+  margin-top: 28px;
+  margin-bottom: 12px;
+}
+
+.post-content ul,
+.post-content ol {
+  margin-bottom: 20px;
+}
+
+.post-content li {
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.post-content code {
+  background-color: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 2px 6px;
+  font-size: 13px;
+  font-family: 'SF Mono', 'Consolas', monospace;
+  color: var(--text-primary);
+}
+
 /* ── Wishlist ── */
 
 .wishlist-category {
