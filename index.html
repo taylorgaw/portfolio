@@ -8,11 +8,12 @@
   </head>
   <body>
     <nav class="navigation">
-      <p class="nav-brand">Taylor Gaw</p>
-      <a href="index.html" title="Home">Home</a>
-      <!-- <a href="pages/projects.html" title="Projects">Projects</a> -->
+      <a class="nav-brand" href="index.html" title="Home"><span class="monogram">TG</span><span class="brand-name">Taylor Gaw</span></a>
+      <a href="pages/about.html" title="About">About</a>
+      <a href="pages/now.html" title="Now">Now</a>
       <a href="pages/resume.html" title="Resume">Resume</a>
       <a href="pages/blog.html" title="Blog">Blog</a>
+      <!-- <a href="pages/projects.html" title="Projects">Projects</a> -->
       <!-- <a href="pages/wishlist.html" title="Wishlist">Wishlist</a> -->
     </nav>
     <div class="page-content">
@@ -20,31 +21,100 @@
       <section class="hero">
         <p class="hero-label">Hello, I'm</p>
         <h1>Taylor Gaw</h1>
-        <p class="hero-title">Full Stack Software Engineer</p>
+        <p class="hero-title">Dad. Software Engineer. Angler. Surfer. Music Fanatic.</p>
         <p class="hero-summary">
-          I've been a software engineer for about 10 years now, 
-          mostly focused on building highly scalable applications. I'll be
-          using this space to highlight some of my personal work and share 
-          my thoughts on the current state of the world.
+          I've been building software for about ten years, mostly applications
+          that need to scale. These days, though, most of my time goes to being
+          a dad. Whatever's left over I spend on the water with a fly rod or a
+          surfboard, or playing guitar a little too loud. This is where I keep
+          my writing, my work, and whatever else I'm into.
         </p>
         <div class="hero-actions">
-          <a href="pages/resume.html" class="btn btn-primary">View Resume</a>
-          <!-- <a href="pages/projects.html" class="btn btn-secondary">See Projects</a> -->
-          <a href="https://www.linkedin.com/in/taylor-gaw/" target="_blank" class="btn btn-ghost">LinkedIn ↗</a>
+          <a href="pages/about.html" class="btn btn-primary">About Me</a>
+          <a href="pages/resume.html" class="btn btn-ghost">Resume</a>
         </div>
       </section>
 
-      <section class="highlights">
-        <div class="highlight-card">
-          <span class="highlight-label">Currently</span>
-          <p>Sr. Software Engineer at Capital One Software</p>
+      <section class="home-section">
+        <h2 class="section-label">Away from the Desk</h2>
+        <div class="pursuits">
+          <!-- DRAFT: rewrite these blurbs in your own words -->
+          <article class="pursuit pursuit-first">
+            <div>
+              <p class="pursuit-no">Above All</p>
+              <h3>Dad</h3>
+            </div>
+            <p>The best and busiest job I've ever had. It's the reason the fishing trips are shorter and the guitar is a little dustier, and I wouldn't trade it for anything.</p>
+          </article>
+          <article class="pursuit">
+            <p class="pursuit-no">No. 01</p>
+            <h3>Fly Fishing</h3>
+            <p>Standing along the beach, waving a stick, and someday hauling a massive striped bass. The most patient I ever am about anything.</p>
+          </article>
+          <article class="pursuit">
+            <p class="pursuit-no">No. 02</p>
+            <h3>Surfing</h3>
+            <p>Heading into cold-water surf time, which means a 4/3 and a lot of optimism. The good days make up for the rest.</p>
+          </article>
+          <article class="pursuit">
+            <p class="pursuit-no">No. 03</p>
+            <h3>Guitar</h3>
+            <p>A Gibson SG, a pedalboard that keeps growing, and never quite enough time to practice.</p>
+          </article>
+          <article class="pursuit pursuit-dream">
+            <div>
+              <p class="pursuit-no">No. 04 &middot; The Dream</p>
+              <h3>A Breakfast Burrito Company</h3>
+              <p>Eggs, potatoes, the right salsa, all wrapped tight enough to eat one-handed on the way to the water. It doesn't exist yet, but the menu is coming along.</p>
+            </div>
+            <!-- DRAFT: working name, swap in the real one -->
+            <div class="burrito-card" aria-hidden="true">
+              <span class="burrito-est">Est. Someday</span>
+              <span class="burrito-name">North Star</span>
+              <span class="burrito-kind">Breakfast Burritos</span>
+              <span class="burrito-rule"></span>
+              <span class="burrito-menu">Eggs &middot; Potatoes &middot; Salsa</span>
+            </div>
+          </article>
         </div>
-        <div class="highlight-card">
-          <span class="highlight-label">Stack</span>
-          <p>React · Python · TypeScript · AWS</p>
+      </section>
+
+      <section class="home-section">
+        <h2 class="section-label">From the Blog</h2>
+        <div class="container-item blog-card">
+          <div class="blog-card-meta">May 11, 2026</div>
+          <h3><a href="pages/blog/kickoff.html">Welcome to the Blog</a></h3>
+          <p>A new space for programming deep-dives, beginner guides, and thoughts on technology and beyond.</p>
+        </div>
+      </section>
+
+      <section class="home-section">
+        <h2 class="section-label">By Day</h2>
+        <div class="highlights">
+          <div class="highlight-card">
+            <span class="highlight-label">Currently</span>
+            <p>Sr. Software Engineer at Capital One Software</p>
+          </div>
+          <div class="highlight-card">
+            <span class="highlight-label">Approach</span>
+            <p>Pragmatic, curious, and always learning whatever the problem calls for</p>
+          </div>
         </div>
       </section>
 
     </div>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <a class="footer-mark" href="index.html" title="Home"><span class="monogram">TG</span></a>
+        <div class="footer-links">
+          <a href="pages/about.html" title="About">About</a>
+          <a href="pages/now.html" title="Now">Now</a>
+          <a href="pages/resume.html" title="Resume">Resume</a>
+          <a href="pages/blog.html" title="Blog">Blog</a>
+          <a href="https://www.linkedin.com/in/taylor-gaw/" target="_blank">LinkedIn ↗</a>
+        </div>
+        <p class="colophon">&copy; 2026 Taylor Gaw &middot; Set in Libre Caslon &amp; Jost &middot; Built in plain HTML &amp; CSS</p>
+      </div>
+    </footer>
   </body>
 </html>
